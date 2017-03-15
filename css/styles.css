@@ -81,7 +81,14 @@ body {
 
 @media (max-width: 1217px) {
 	.banner {
+		background-image: url(../images/header-bg.jpg);
   	background-size: cover;
+	}
+}
+
+@media (max-width: 575px) {
+	.banner {
+		display: none;
 	}
 }
 
@@ -91,4 +98,30 @@ body {
   height: 1.5rem;
   fill: currentColor;
   margin: 0 0.5rem 0 0.5rem;
+}
+
+.main-content {
+		background-image: url(../images/marble-tile.jpg);
+		padding: 15px 0 0 2rem;
+}
+
+.main-content .bio-card {
+	background: white;
+	border-radius: 4px;
+	padding: 0.75em;
+}
+
+.main-content .bio-card > .bio-card-pic {
+	background-image: url(../images/alfredo-feisco.jpg);
+	background-size: cover;
+	height: 13rem;
+	width: 13rem;
+	border-radius: 13rem;
+	background-position-x: -23px;
+}
+
+.main-content .news-listing {
+		background: white;
+		border-radius: 4px;
+		padding: 0.75em;
 }
